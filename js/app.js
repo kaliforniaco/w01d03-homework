@@ -77,7 +77,13 @@ kristyn[2]="Brooklyn";
 
 //- array registers changed
 
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
+for (i=0; i<turtles.length; i++){
+	//turtleUp = turtles[i].toUpperCase();
+	console.log(turtles[i].toUpperCase());
+
+}
 
 
 
