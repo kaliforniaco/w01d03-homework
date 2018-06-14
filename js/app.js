@@ -59,4 +59,31 @@ for (i=0; i<101; i++){
 console.log(result);
 }
 
-//-
+//- FizzBuzzed!
+
+//5. Getting to Know you
+
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+
+thom[0]="Gameboy";
+karolin[1]=17;
+matt[2]="Gotham City";
+kristyn[2]="Brooklyn";
+
+//console.log (thom + karolin + kristyn + matt);
+
+//- array registers changed
+
+
+
+
+
+
+
+
+
+
+
