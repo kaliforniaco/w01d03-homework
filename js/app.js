@@ -77,6 +77,8 @@ kristyn[2]="Brooklyn";
 
 //- array registers changed
 
+//6. Yell at the Ninja Turtles
+
 const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
 for (i=0; i<turtles.length; i++){
@@ -86,7 +88,7 @@ for (i=0; i<turtles.length; i++){
 
 //- YELLED at those teenagers!
 
-//6. Return of the Closets
+//7. Return of the Closets
 
 const kristynsCloset = [
   "left shoe",
@@ -114,15 +116,29 @@ const thomsCloset = [
   ],[
     // Thom's accessories
     "wool mittens",
-    "wool scarf",
-    "raybans"
+    "wool scarf",			//modify your code..
+    "raybans".             //is it neccessary to restructure these arrays/objects?
   ]
 ];
 
-console.log(kristynsCloset); //for properties
-console.log(thomsCloset);
+let kristynsShoe = kristynsCloset[0];
+kristynsCloset[0] = " ";
+thomsCloset[2].push(kristynsShoe);
+console.log (kristynsCloset[0] + thomsCloset[thomsCloset.length-1]); //for struc prop
 
-//-> **Commit 7 - Kristyn and Thom DO NOT have their outfits ready for class! 
+//-a. Alien Attire complete
+//-b. Kristyn and Thom DO NOT have their outfits ready for class **
+
+
+//8. Still in the Closet
+//-a.Dirty Laundry
+
+for (i=0; i<kristynsCloset.length-1; i++){
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}.`);
+}
+
+//-kristyn's laundry washed
+//-b. Inventory IS NOT done on Thom's closet
 
 
 
